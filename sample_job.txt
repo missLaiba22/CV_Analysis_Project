@@ -1,0 +1,5 @@
+  Senior Software Engineer
+  Required skills: Python, JavaScript, React, AWS
+  Experience: 3+ years required
+  Education: Bachelor's degree in Computer Science
+  Certifications: AWS certification preferred
