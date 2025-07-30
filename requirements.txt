@@ -2,4 +2,5 @@ python-docx
 PyPDF2
 pdfplumber
 spacy
-nltk 
+nltk
+sentence-transformers

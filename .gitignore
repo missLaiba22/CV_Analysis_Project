@@ -39,6 +39,9 @@ Thumbs.db
 uploads/
 data/
 *.csv
+*.pdf
+*.txt
+
 
 # Environment config
 .env

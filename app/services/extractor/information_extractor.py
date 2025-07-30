@@ -336,3 +336,25 @@ class InformationExtractor:
                     requirements.append(match.strip())
         
         return requirements 
+    def extract(self, text: str) -> Dict[str, Any]:
+        """
+    Unified method to extract both CV and job information, depending on context.
+
+    Args:
+        text: Raw text input from either a resume or job description.
+
+    Returns:
+        Dictionary of all extracted fields.
+    """
+        return {
+        "name": self._extract_name(self.nlp(text), text),
+        "email": self._extract_email(text),
+        "phone": self._extract_phone(text),
+        "skills": self._extract_skills(text),
+        "experience": self._extract_experience(text),
+        "education": self._extract_education(text),
+        "certifications": self._extract_certifications(text),
+        "projects": self._extract_projects(text),
+        "location": self._extract_location(self.nlp(text)),
+        "requirements": self._extract_requirements(text)
+    }
