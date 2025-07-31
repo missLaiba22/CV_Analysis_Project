@@ -1,0 +1,6 @@
+python-docx
+PyPDF2
+pdfplumber
+spacy
+nltk
+sentence-transformers
