@@ -4,3 +4,5 @@ pdfplumber
 spacy
 nltk
 sentence-transformers
+google-generativeai
+

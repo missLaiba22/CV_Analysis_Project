@@ -3,7 +3,7 @@ from app.services.extractor.information_extractor import InformationExtractor
 
 # 1. Parse the CV file
 parser = DocumentParser()
-cv_result = parser.parse_document("Tooba Idrees - Resume.pdf")  # Change to your file path
+cv_result = parser.parse_document("resumes/Laiba  Idrees-resume.pdf")  # Change to your file path
 
 print("=== Parsed CV Content ===")
 print(cv_result["content"])
